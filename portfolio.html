@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -8,23 +12,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -33,11 +25,13 @@
     <header>
       <!-- Верхняя линия -->
       <nav>
-        <span class="logoweb">Web</span>
-        <span class="logostudio"> Studio</span>
+        <a href=""
+          ><span class="logoweb">Web</span>
+          <span class="logostudio"> Studio</span></a
+        >
         <ul class="site-nav list">
           <li><a href="" class="text-link">Студия</a></li>
-          <li><a href="" class="text-link">Портфолио</a></li>
+          <li><a href="./portfolio.html" class="text-link">Портфолио</a></li>
           <li><a href="" class="text-link">Контакты</a></li>
         </ul>
       </nav>
@@ -56,57 +50,64 @@
       <section>
         <h1>Быстрый переход на страницу</h1>
         <ul>
-          <li><button type="button" class="box">Все</button></li>
-          <li><button type="button" class="box">Веб-сайты</button></li>
-          <li><button type="button" class="box">Приложения</button></li>
-          <li><button type="button" class="box">Дизайн</button></li>
-          <li><button type="button" class="box">Маркетинг</button></li>
+          <li><button type="button" class="button">Все</button></li>
+          <li><button type="button" class="button">Веб-сайты</button></li>
+          <li><button type="button" class="button">Приложения</button></li>
+          <li><button type="button" class="button">Дизайн</button></li>
+          <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
-        <h2>Наши проекты</h2>
         <ul>
           <li>
-            <img src="./image/img2.1.jpg" alt="Наш сайт" />
-            <h3 class="description">Технокряк</h3>
+            <img src="./image/img2.1.jpg" alt="Наш сайт" width="370" />
+            <h2 class="description">Технокряк</h2>
             <p class="direction">Веб-сайт</p>
           </li>
           <li>
-            <img src="./image/img2.2.jpg" alt="Динамическая картинка" />
-            <h3 class="description">Постер New Orlean vs Golden Star</h3>
+            <img
+              src="./image/img2.2.jpg"
+              alt="Динамическая картинка"
+              width="370"
+            />
+            <h2 class="description">Постер New Orlean vs Golden Star</h2>
             <p class="direction">Дизайн</p>
           </li>
           <li>
-            <img src="./image/img2.3.jpg" alt="Логотип ресторана" />
-            <h3 class="description">Ресторан Seafood</h3>
+            <img src="./image/img2.3.jpg" alt="Логотип ресторана" width="370" />
+            <h2 class="description">Ресторан Seafood</h2>
             <p class="direction">Приложение</p>
           </li>
           <li>
-            <img src="./image/img2.4.jpg" alt="Наушники" />
-            <h3 class="description">Проект Prime</h3>
+            <img src="./image/img2.4.jpg" alt="Наушники" width="370" />
+            <h2 class="description">Проект Prime</h2>
             <p class="direction">Маркетинг</p>
           </li>
           <li>
-            <img src="./image/img2.5.jpg" alt="Коробки" />
-            <h3 class="description">Проект Boxes</h3>
+            <img src="./image/img2.5.jpg" alt="Коробки" width="370" />
+            <h2 class="description">Проект Boxes</h2>
             <p class="direction">Приложение</p>
           </li>
           <li>
-            <img src="./image/img2.6.jpg" alt="Монитор" />
-            <h3 class="description">Inspiration has no Borders</h3>
+            <img src="./image/img2.6.jpg" alt="Монитор" width="370" />
+            <h2 class="description">Inspiration has no Borders</h2>
             <p class="direction">Веб-сайт</p>
           </li>
 
           <li>
-            <img src="./image/img2.7.jpg" alt="Книга" />
-            <h3 class="description">Издание Limited Edition</h3>
+            <img src="./image/img2.7.jpg" alt="Книга" width="370" />
+            <h2 class="description">Издание Limited Edition</h2>
             <p class="direction">Дизайн</p>
           </li>
           <li>
-            <img src="./image/img2.8.jpg" alt="Бирка" />
-            <h3 class="description">Проект LAB</h3>
+            <img src="./image/img2.8.jpg" alt="Бирка" width="370" />
+            <h2 class="description">Проект LAB</h2>
             <p class="direction">Маркетинг</p>
           </li>
           <li>
-            <img src="./image/img2.9.jpg" alt="Работа за ноутбуком" />
+            <img
+              src="./image/img2.9.jpg"
+              alt="Работа за ноутбуком"
+              width="370"
+            />
             <h3 class="description">Growing Business</h3>
             <p class="direction">Приложение</p>
           </li>
